@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Jahitin</string>
+    <string name="app_name">Kos Lotus</string>
     <string name="Pembayaran">Segera Lakukan Pembayaran Sebelum :</string>
     <string name="Tanggal">Sabtu, 13 Oktober 2018, 01:34 WIB</string>
     <string name="Transfer">Transfer Pembayaran ke Nomor Rekening :</string>
@@ -15,7 +15,7 @@
     <string name="kurir_pengiriman">Kurir Pengiriman</string>
 
     <!-- Label Tab Layout Pembelian -->
-    <string name="pakaian_custom_title">Custom Pakaian</string>
+    <string name="pakaian_custom_title">Kamar Kos</string>
     <string name="pakaian_jadi_title">Pakaian Jadi</string>
     <string name="menu_label_informasi_toko">Informasi Toko</string>
 

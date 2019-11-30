@@ -125,7 +125,7 @@ public class BerandaFragment extends Fragment
         listCarousel = new ArrayList<>();
         listCarousel.add(R.drawable.carousel_1);
         listCarousel.add(R.drawable.carousel_2);
-        listCarousel.add(R.drawable.carousel_3);
+//        listCarousel.add(R.drawable.carousel_3);
 
         pagerAdapter = new OverviewPagerAdapter(listCarousel, getActivity());
         viewPager.setAdapter(pagerAdapter);

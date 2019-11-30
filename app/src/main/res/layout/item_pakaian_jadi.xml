@@ -63,20 +63,20 @@
 
                     <TableRow>
                         <TextView
-                            android:text="Ukuran"
+                            android:text=""
                             android:layout_weight="1"
                             android:paddingRight="16dp"
                             style="@style/LabelSpefikasi"/>
 
                         <TextView
-                            android:text=":"
+                            android:text=""
                             android:layout_weight="1"
                             android:paddingRight="16dp"
                             style="@style/LabelSpefikasi"/>
 
                         <TextView
                             android:id="@+id/tv_ukuran_pakaian_jadi"
-                            android:text="All Size"
+                            android:text=""
                             android:layout_weight="1"
                             style="@style/LabelSpefikasi"/>
                     </TableRow>

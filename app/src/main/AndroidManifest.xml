@@ -13,20 +13,16 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".Activity.SplashScreen"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Launcher">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Activity.onBoarding"
-            android:label="@string/title_activity_on_boarding"
-            android:theme="@style/AppTheme" />
+<!--        <activity-->
+<!--            android:name=".Activity.SplashScreen"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:theme="@style/AppTheme.Launcher">-->
+<!--            -->
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name=".Activity.onBoarding"-->
+<!--            android:label="@string/title_activity_on_boarding"-->
+<!--            android:theme="@style/AppTheme" />-->
         <activity
             android:name=".Activity.Login"
             android:screenOrientation="portrait"
@@ -38,7 +34,13 @@
             android:theme="@style/AppTheme.form" />
         <activity
             android:name=".Activity.Beranda"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Activity.Pembelian"
             android:parentActivityName=".Activity.Beranda"
